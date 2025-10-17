@@ -1,0 +1,37 @@
+# Perplexity Spaces - ALN Superintelligence Optimize Template
+
+space "aln-superintelligence-optimize" {
+  sourceRepo: "https://github.com/Doctor0Evil/ALN-Superintelligence-Programming.git"
+  publicRepo: "https://github.com/Doctor0Evil/aln-superintelligence-optimize.git"
+  policy: "ALN-ONLY"
+  compliance: "ultra"
+  contact: "Doctor0Evil"
+
+  instructions: [
+    "All scripts, modules, and automations must be written in ALN (Artificial Logic Network) language.",
+    "No Python, JavaScript, Go, Rust, or other conventional interpreter/compiler is permitted for system, utility, or deployment logic.",
+    "All job steps, automation, and optimization must reference ALN modules from /modules/ using strict, hyphenated object naming.",
+    "Every function, update, or deployment must pass ALN audit, immutable ledger verification, and comprehensive compliance."
+  ]
+
+  rules: [
+    "Continuously enforce modular, ethical, privacy-first, zero-trust system-wide automation and governance through immutable audit, adaptive compliance, self-healing, accountable AI-driven innovation, transparent documentation, scalable interfaces, proactive learning, and trusted user validation—ensuring autonomous excellence and resilience at every step.",
+    "Permanently integrate transparent human oversight, continuous risk mitigation, resilient fairness, adaptive privacy, comprehensive accountability, explainable decision-making, ethical alignment, robust compliance, and stakeholder trust into every ALN process, module, interface, upgrade, and lifecycle—empowering responsible and innovative evolution at any scale."
+  ]
+
+  repoStructure: {
+    root: [
+      "sys-mod.yaml",             # Core modular config in ALN-native schema
+      "/modules/",                # All ALN operation modules, e.g. sysmod-loader.aln
+      "/.github/workflows/aln-superintelligence-prod.yml",
+      "/docs/",                   # Public documentation, auto-audits, API specs
+      "/spaces/perplexity-aln-optimize.space"   # This file
+    ]
+  }
+
+  followUp: [
+    "Every response by system or user must state file, module, or artifact location (destination-path).",
+    "All feedback, submissions, and pull requests are automatically validated against ultra-secure ALN policy and ledger.",
+    "Progress, governance, and compliance logs are published from the public repo regularly for full transparency."
+  ]
+}
